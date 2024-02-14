@@ -1,11 +1,10 @@
 body {
      padding: 20px;
-     background-image: url("https://i.imgur.com/29PS0ho.gif");
-	   background-size: cover;
+     background-color: #f8f9fa;
      font-family: 'Poppins', sans-serif;
 }
  .container {
-     background-image: linear-gradient(45deg, #800080 0%,  #E90207 46%,  #ff8c00 100%);
+     background-color: #ffffff;
      border-radius: 10px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      padding: 20px;
@@ -13,26 +12,19 @@ body {
      margin-bottom: 20px;
 }
  h1 {
-     color: #FFF;
-     font-size: 24px;
-     margin-bottom: 15px;
+     color: #343a40;
 }
  label {
-     background-color: #FFFFFF;
-     color: #405057;
-	   border-radius: 10px;
-     font-weight: bold;
-     margin-bottom: 5px;
+     color: #495057;
 }
  .centered-textarea {
-     color: #FFFF;
-     display: flex;
+     display: block;
      margin: 0 auto;
      width: 100%;
      min-height: 150px;
      padding: 10px;
      box-sizing: border-box;
-     border: 1px solid #00ffff;
+     border: 1px solid #ced4da;
      border-radius: 5px;
      resize: none;
 }
@@ -49,13 +41,13 @@ body {
      margin-top: 10px;
 }
  .footer {
-     background-color: #E90207 46%,  #ff8c00 100%;
+     background-color: rgba(255, 255, 255, 0.7);
      padding: 10px;
      text-align: center;
      font-size: 16px;
-     color: #FFF;
+     color: #555;
      margin-top: 50px;
-     border-top: 1px solid #blue;
+     border-top: 1px solid #ccc;
      position: fixed;
      bottom: 0;
      left: 0;
@@ -88,7 +80,7 @@ body {
   margin-top: 10px;
   padding: 14px;
   align-items: center;
-  border: 1px solid #red;
+  border: 1px solid #ccc;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease; 
@@ -97,8 +89,8 @@ body {
 }
 
 .form-check:hover {
-  background-color: #f5f5; 
-  border-color: #f8f8f8; 
+  background-color: #f0f0f0; 
+  border-color: #333; 
 }
 
 .form-check-input {
@@ -127,46 +119,3 @@ body {
 #listOfCommands:not(.modal), #listOfCommandsEvent:not(.modal), #prefixOfCommands:not(.modal), #adminOfCommands:not(.modal) {
   box-shadow: none !important;
 }
-
-div {
-  margin-bottom: 10px;
-	border-radius: 5px;
-}
-
-video {
-	max-width: 100%;
-	max-height: 70%;
-	margin-bottom: 20px;
-	cursor: default;
-	background: linear-gradient(135deg, aqua, rgb(0, 255, 0), rgb(255, 255, 0), orange, red, rgb(255, 0, 234));
-	border-radius: 10px;
-	animation: animate 1.5s linear infinite;
-	 border: 2px solid transparent;
-animation: neon-border 2s linear infinite alternate; /* Adjust animation duration and timing */
-	}
-
- @keyframes neon-border {
-	 from {
-		border-color: #ff0000; /* Start color */
-	box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000; /* Adjust shadow colors and sizes */
-}
-to {
-	border-color: #00ff00; /* End color */
-	box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00; /* Adjust shadow colors and sizes */
-}
- }
-
-#video-container {
-	width: 100%;
-	height: 70%;
-	margin-bottom: 20px;
-}
-
-#video {
-   width: 100%;
-   border-radius: 10px;
-   height: 70%%;
-   object-fit: cover;
-   margin: auto;
-}
-	
